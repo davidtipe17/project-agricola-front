@@ -1,18 +1,13 @@
 import React from "react";
 import { FaTwitter, FaGithub } from "react-icons/fa";
+import { LuFlower2 } from "react-icons/lu";
 
 const LoginPage = () => {
   return (
     <div className="h-screen flex">
       {/* Columna Izquierda - Formulario */}
-      <div className="w-1/2 p-8 flex flex-col items-center justify-center">
-      
-        {/* <img
-          className="mb-4 h-8"
-          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600"
-          alt="Your Company"
-        /> */}
-        {/* <GiEcology className="mb-4 h-8"/> */}
+      <div className="w-1/2 p-8 flex flex-col  justify-center">
+        <LuFlower2 className="mb-4 h-12 w-12 text-blue-300" />
         <h2 className="text-3xl font-semibold mb-2">Sign in to your account</h2>
         <p className="text-gray-600 mb-4">
           Not a member?{" "}
@@ -100,9 +95,9 @@ const LoginPage = () => {
       </div>
 
       {/* Columna Derecha - Imagen */}
-      <div className="w-1/2 hidden md:block">
+      <div className="w-1/2 hidden md:flex md:items-center">
         <img
-          class="w-full rounded-xl"
+          className="w-full rounded-xl"
           src="https://images.unsplash.com/photo-1665686376173-ada7a0031a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=700&q=80"
           alt="Image Description"
         />
