@@ -2,9 +2,9 @@
 const Footer = () => {
   return (
     <>
-      <footer className=" w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-white content-end">
+      <footer className=" w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-white border-2 border-red-200">
         {/* <!-- Grid --> */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10 pl-3">
+        <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10 pl-3 border-2 border-blue-200 flex justify-center">
           <div className="col-span-full hidden lg:col-span-1 lg:block">
             <a className="flex-none text-xl font-semibold text-black" href="#" aria-label="Brand">Logo</a>
             <p className="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400">© 2023 derechos reservados.</p>
